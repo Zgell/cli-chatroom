@@ -48,4 +48,6 @@ class Chatroom:
                 # TODO: Add message to chatroom
                 # TODO: Send message out to all clients
                 print(address, '>>', str(client_msg))
+
+        client_socket.close()
             
